@@ -1,0 +1,17 @@
+ms-swift==4.5.2
+transformers==4.57.6
+peft==0.19.1
+trl==0.29.1
+accelerate==1.14.0
+deepspeed==0.18.9
+qwen-omni-utils==0.0.9
+safetensors==0.8.0
+numpy==2.2.6
+scipy==1.18.1
+soundfile==0.14.0
+av==18.1.0
+librosa==1.0.0
+datasets==4.8.4
+openai==2.24.0
+PyYAML==6.0.3
+tensorboard==2.21.0

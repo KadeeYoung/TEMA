@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tema-chat"
+version = "0.1.0"
+description = "Evidence-grounded temporal QA in multi-turn multi-audio dialogues"
+requires-python = ">=3.12"
+# Runtime pins are in requirements-runtime.txt; GPU wheels are documented separately.
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["tema_chat*", "temporal_init*", "sft*"]
