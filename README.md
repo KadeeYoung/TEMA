@@ -7,7 +7,7 @@
 [![Model](https://img.shields.io/badge/%F0%9F%A4%97%20Model-TEMA--GRPO-yellow)](https://huggingface.co/bluesky7/TEMA-Qwen2.5-Omni-7B-GRPO)
 [![Code License](https://img.shields.io/badge/Code%20License-Apache--2.0-blue)](LICENSE)
 
-[Overview](#overview) · [Data and models](#data-and-models) · [Quick start](#quick-start) · [Training](#training) · [Evaluation](#evaluation) · [Citation](#citation)
+[Overview](#overview) · [Data and models](#data-and-models) · [18 subtasks](docs/TEMA_18_SUBTASKS_MAPPING_EN.md) · [Quick start](#quick-start) · [Training](#training) · [Evaluation](#evaluation) · [Citation](#citation)
 
 </div>
 
@@ -54,6 +54,8 @@ QA measures question-required correctness. QA+T also checks volunteered temporal
 | TEMA-Bench, Test253 | 253 dialogues / 1,239 questions | Multi-turn evaluation of evidence and final answers |
 
 Questions cover localization and measurement, event identification and verification, within-audio temporal structure, cross-audio retrieval and comparison, and references to earlier turns.
+
+The [18-subtask guide](docs/TEMA_18_SUBTASKS_MAPPING_EN.md) maps the five task families to all 18 subtasks, with definitions, example questions and answers, evidence requirements, and internal task labels.
 
 Audio is obtained separately from [AudioSet Strong](https://research.google.com/audioset/download_strong.html), [TACOS](https://github.com/OptimusPrimus/tacos), and [AudioTime](https://github.com/zeyuxie29/AudioTime). Temporal-initialization annotations are included under `temporal_init/`.
 
