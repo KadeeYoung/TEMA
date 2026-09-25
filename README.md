@@ -1,8 +1,9 @@
 <div align="center">
 
 # TEMA
-### Evidence-Grounded Temporal Question Answering in Multi-Turn Multi-Audio Dialogues
+### Evidence-Grounded Temporal Question Answering in Multi-Turn Multi-Audio Dialogs
 
+[![arXiv](https://img.shields.io/badge/arXiv-2609.30029-b31b1b.svg)](https://arxiv.org/abs/2609.30029)
 [![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-TEMA--Data-yellow)](https://huggingface.co/datasets/bluesky7/TEMA-Data)
 [![Model](https://img.shields.io/badge/%F0%9F%A4%97%20Model-TEMA--GRPO-yellow)](https://huggingface.co/bluesky7/TEMA-Qwen2.5-Omni-7B-GRPO)
 [![Code License](https://img.shields.io/badge/Code%20License-Apache--2.0-blue)](LICENSE)
@@ -243,10 +244,13 @@ Span micro F1 pools interval TP, FP, and FN.
 
 ```bibtex
 @misc{yang2026tema,
-  title  = {TEMA: Evidence-Grounded Temporal Question Answering in Multi-Turn Multi-Audio Dialogues},
-  author = {Kaidi Yang and Hualei Wang and Zhaohui Wang and Chenxuan Wang and Hong Liu and Xiangdong Wang},
-  year   = {2026},
-  url    = {https://github.com/KadeeYoung/TEMA}
+  title         = {TEMA: Evidence-Grounded Temporal Question Answering in Multi-Turn Multi-Audio Dialogs},
+  author        = {Kaidi Yang and Hualei Wang and Zhaohui Wang and Chenxuan Wang and Hong Liu and Xiangdong Wang},
+  year          = {2026},
+  eprint        = {2609.30029},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.SD},
+  url           = {https://arxiv.org/abs/2609.30029}
 }
 ```
 
